@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import kotlin.random.Random
 
 class DiceGameViewModel : ViewModel() {
-    private val _player1Score = MatuableState(0)
+    private val _player1Score = MutableLiveData(0)
     val player1Score: LiveData<Int> = _player1Score
 
     private val _player2Score = MutableLiveData(0)

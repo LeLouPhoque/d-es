@@ -51,7 +51,7 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.lifecycle.viewmodel.compose.v262)
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.core.ktx)
